@@ -23,7 +23,7 @@ button{
 }
 
 h2{
-    font-size: 35px;
+    font-size: 20px;
 }
 
 h3{
@@ -69,7 +69,9 @@ h3{
     background-color: #b4d0e7;
 }
 
-
+.testo{
+    font-size: 35px;
+}
 
 .titolo{
     font-size: 38px;
@@ -165,7 +167,6 @@ h3{
 }
 
 .pack{
-    font-size: 20px;
     margin-left: 25px;
     margin-top: 30px;
 }
@@ -281,6 +282,36 @@ h3{
     color: white;
     font-size: 13px;
     width: 180px;
+}
+/**immagine e descrizione seconda sezione**/
+.containerimmagine{
+    display: flex;
+    margin-top: 150px;
+
+}
+.image{
+    width: 65%;
+}
+
+.descrizioneimmagine{
+    width:35%; 
+    margin: 50px 30px;
+}
+
+.partner{
+    width: 100%;
+    display: block;
+}
+
+.descrizioneimmagine h4{
+    margin-top: 20px;
+}
+
+.click{
+    background-color: white;
+    margin-top: 35px;
+    border: 1px solid black;
+    padding: 7px 15px;
 }
 /**fine seconda sezione**/
 
