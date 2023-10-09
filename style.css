@@ -6,10 +6,27 @@
 }
 /** fine-reset**/
 
+/**common**/
+body{
+     font-family: 'Open Sans', sans-serif;
+}
+h4{
+    line-height: 1.4;
+    font-weight: lighter;
+}
+button{
+    all: unset;
+    background-color:#0061ff ;
+    padding: 5px;
+    cursor:  pointer;
+}
+/**common**/
+
 /**navbar**/
 .navbar{
     display: flex;
     justify-content: space-between;
+    margin: 20px 0;
 }
 .logo, ul li{
     display: inline-block;
@@ -18,42 +35,75 @@
 
 .navleft ul .link, .navright ul .link{
     margin-left: 20px;
-    margin-top: 25px;
     font-size: 14px;
+    font-weight: lighter;
 }
 
 .logo{
     margin-left: 20px;
-    margin-top: 25px;
-}
-
-button{
-    all: unset;
 }
 
 .button{
     margin-right: 20px;
-    padding: 5px;
-    background-color: #0061ff;
-    color: white;
-    cursor:  pointer;
 }
 /** fine-navbar**/
 
 /**inizio intestazione header**/
 .intestazione{
-background-color: #b4d0e7;
-
+    background-color: #b4d0e7;
 }
 
+
+
 .titolo{
-    font-size: 40px;
+    font-size: 38px;
     max-width: 1000px;
     margin: auto;
 }
   .titolo h1{
-    line-height: 1.6;
+    line-height: 1.4;
+    padding-top: 50px;
  }
 
 
+ .header-bottom{
+    display: flex;
+    max-width:1000px;
+    margin: auto;
+ }
+
+ .header-bottom-left,.header-bottom-right{
+    width: 350px;
+ }
+
+ .header-bottom-left{
+    width: 35%;
+ }
+
+ .header-bottom-right{
+    width: 65%;
+ }
+
+ .button2{
+    margin: 20px 0;
+ }
+
+.jumbo{
+    width: 100%;
+    position: relative;
+    top: 70px;
+}
+
+.header-bottom-left h4, .header-bottom-left .button2{
+    position: relative;
+    top: 70px;
+}
+
+.fa-arrow-down{
+    font-size: 40px;
+    margin-top: 60px;
+    margin-left: 3px;
+    position: relative;
+    top: 40px;
+}
 /**inizio intestazione header**/
