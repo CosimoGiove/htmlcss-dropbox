@@ -59,6 +59,8 @@ h3{
 .button{
     margin-right: 20px;
     color: white;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 /** fine-navbar**/
 
@@ -184,8 +186,11 @@ h3{
 }
 .color{
     color: #6b6866;
+    font-size: 13px;
 }
-
+.utente{
+    margin-top: 5px;
+}
 .utenti{
     margin-top: 20px;
     margin-left: 25px;
@@ -226,6 +231,58 @@ h3{
     font-size: 13px;
 }
 /**fine box**/
+
+/**inizio seconda sezione**/
+.iconhotel{
+    margin-top: 45px;
+}
+.contatti{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.team{
+    display: inline-block;
+}
+
+.icon{
+    font-size: 13px;
+}
+.hotel{
+    font-size: 13px;
+}
+.descrizionesezione2{
+    margin-left: 25px;
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+
+.contenitoresezione2{
+    display: flex;
+}
+
+.section2{
+    width: 70%;
+    border-top: 1px solid #d0d0d3;
+    border-bottom: 1px solid #d0d0d3 ;
+    border-left:  1px solid #d0d0d3;
+}
+
+.sezione2{
+    width: 30%;
+    text-align: center;
+    border-top: 1px solid #d0d0d3;
+    border-bottom: 1px solid #d0d0d3 ;
+    border-right: 1px solid #d0d0d3;
+}
+.buttonsection2{
+    margin-top: 30px;
+    padding:10px;
+    color: white;
+    font-size: 13px;
+    width: 180px;
+}
+/**fine seconda sezione**/
 
 
 /**fine main**/
