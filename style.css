@@ -17,7 +17,7 @@
 }
 
 .navleft ul .link, .navright ul .link{
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 25px;
     font-size: 14px;
 }
@@ -42,9 +42,18 @@ button{
 
 /**inizio intestazione header**/
 .intestazione{
-    width: 1200px;
-    margin: auto;
-    background-color: #b4d0e7;
+background-color: #b4d0e7;
+
 }
+
+.titolo{
+    font-size: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+  .titolo h1{
+    line-height: 1.6;
+ }
+
 
 /**inizio intestazione header**/
