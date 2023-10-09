@@ -5,3 +5,46 @@
     box-sizing: border-box;
 }
 /** fine-reset**/
+
+/**navbar**/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo, ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navleft ul .link, .navright ul .link{
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.logo{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+button{
+    all: unset;
+}
+
+.button{
+    margin-right: 20px;
+    padding: 5px;
+    background-color: #0061ff;
+    color: white;
+    cursor:  pointer;
+}
+/** fine-navbar**/
+
+/**inizio intestazione header**/
+.intestazione{
+    width: 1200px;
+    margin: auto;
+    background-color: #b4d0e7;
+}
+
+/**inizio intestazione header**/
