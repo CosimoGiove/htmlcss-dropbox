@@ -10,11 +10,12 @@
 body{
      font-family: 'Open Sans', sans-serif;
 }
-h4{
+h4, p{
     line-height: 1.4;
     font-weight: lighter;
     font-size: 13px;
 }
+
 button{
     all: unset;
     background-color:#0061ff ;
@@ -24,6 +25,10 @@ button{
 
 h2{
     font-size: 20px;
+}
+
+.testo{
+    font-size: 35px;
 }
 
 h3{
@@ -69,9 +74,6 @@ h3{
     background-color: #b4d0e7;
 }
 
-.testo{
-    font-size: 35px;
-}
 
 .titolo{
     font-size: 38px;
@@ -314,6 +316,45 @@ h3{
     padding: 7px 15px;
 }
 /**fine seconda sezione**/
+
+/**inizio sezione 3**/
+.textsection3{
+    margin-top: 140px;
+}
+
+.containersection3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxsection3{
+    width: calc(100%/3);
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.imagesection3{
+    width: 100%;
+    display: block;
+}
+
+.titlesection3 p{
+    margin-top: 30px;
+}
+
+.image3{
+    margin-left: 20px;
+}
+
+.containertext{
+    width: 500px;
+    margin-top: 190px;
+}
+
+.containertext p {
+    margin-top: 60px;
+}
+/**fine sezione 3**/
 
 
 /**fine main**/
