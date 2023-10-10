@@ -451,7 +451,29 @@ h3{
 
 /**fine sezione 4**/
 
+/**inizio sezione5**/
+.section5{
+    max-width: 800px;
+    margin: 0 auto;
+}
 
+.section5 .testo{
+    width: 70%;
+    margin: 100px 0;
+    color:  #61082b;
+}
+
+.contenitoresezione5 button{
+    margin: 100px 0;
+    background-color: white;
+    color: black;
+}
+
+.contenitoresezione5{
+    background-color: #b4d0e7
+}
+
+/**fine sezione5**/
 
 
 /**fine main**/
