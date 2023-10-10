@@ -403,9 +403,8 @@ h3 {
 }
 
 .image4 {
-    width: 210px;
     display: flex;
-    margin: 20px 0;
+    margin: 10px 10px;
     background-color: #a2d39b;
 }
 
