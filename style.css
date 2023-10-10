@@ -491,7 +491,13 @@ h3 {
     color: #61082b
 }
 
+.contenitoredomande, .iconaarrow{
+    display: inline-block;
+}
 
+.iconaarrow{
+    margin-right: 30px;
+}
 .contenitoresezione5 button {
     margin: 100px 0;
     background-color: white;
@@ -509,11 +515,16 @@ h3 {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .question {
     padding: 40px 0;
     font-weight: bold;
+    display: flex;
+    justify-content: space-between;
 }
 
 .section6 .testo {
