@@ -51,8 +51,7 @@ h3 {
     margin: 20px 0;
 }
 
-.logo,
-ul li {
+.logo, ul li {
     display: inline-block;
     vertical-align: middle;
 }
@@ -526,6 +525,62 @@ ul li {
 }
 
 /** fine sezione 6**/
-
-
 /**fine main**/
+/**inizio footer**/
+.contenitorefooter{
+    width: 1000px;
+    margin: 0 auto;
+}
+/**inizio footer**/
+footer{
+    background-color: black;
+    padding-bottom: 50px;
+}
+.footer{
+    display: flex;
+}
+
+.boxfooter{
+    width: calc(100%/5);
+    margin-top: 100px;
+}
+
+.boxfooter h4{
+    margin-top: 15px;
+}
+
+.boxfooter h2{
+    color: white;
+}
+
+.infofooter{
+    margin-top: 20px;
+}
+
+.hrfooter{
+    width: 100px;
+    margin-top: 100px;
+}
+
+.fontawesome{
+    color: white;
+    display: inline-block;
+}
+
+.italy, .arrowfooter{
+    display: inline-block;
+}
+
+.arrowfooter{
+    vertical-align: bottom;
+    font-size: 12px;
+}
+
+.infofooter a{
+    text-decoration: none;
+    color: white;
+}
+/**fine footer**/
+
+
+
