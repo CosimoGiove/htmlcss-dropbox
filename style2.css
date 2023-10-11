@@ -1,0 +1,171 @@
+/**reset**/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/** fine-reset**/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h4,
+p {
+    line-height: 1.4;
+    font-weight: lighter;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    all: unset;
+    background-color: #0061ff;
+    padding: 5px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.testo {
+    font-size: 35px;
+}
+
+.btn{
+    background-color: #0061ff;
+    padding: 10px;
+    color: white;
+}
+
+
+
+/**common**/
+
+/**hover**/
+.link:hover{
+    border-bottom: 2px solid red;
+}
+/** finehover**/
+/**navbar**/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    background-color: white;
+}
+
+.logo, ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navleft ul .link,
+.navright ul .link {
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 5.6;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+
+.button {
+    margin-right: 20px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/** fine-navbar**/
+
+/**jumbotron**/
+
+
+.sectionjumbotron{
+    background-color: #262926;
+    color: white;
+}
+
+.intestazione{
+    background-color:  #262926;
+     width: 1000px;
+     margin: 0 auto;
+     text-align: center;
+
+}
+
+
+.titolo{
+    padding-top:  50px;
+}
+
+.paragrafo{
+    margin-top: 30px;
+}
+
+.intestazione button{
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.imagejumbo{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/**fine jumbotron**/
+
+/**primo article**/
+
+.photoarticle{
+    display: flex;
+    
+}
+.imageleft,.textright{
+    width: calc(100%/2);
+}
+
+.imageleft img{
+    width: 100%;
+    display: block;
+}
+
+.textright{
+    padding:  20px 40px;
+    background-color: #DBE6D9;
+}
+
+.textright p{
+    margin-top: 20px;
+}
+
+.contenitorearticle{
+    width: 80%;
+}
+
+.btn1{
+    margin-top: 400px;
+}
+
+.order{
+    order: 1;
+}
+/** fine primo article**/
+
+
+
+
