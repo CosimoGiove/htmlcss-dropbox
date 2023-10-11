@@ -19,6 +19,11 @@ p {
     font-size: 13px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 button {
     all: unset;
     background-color: #0061ff;
@@ -100,12 +105,14 @@ h3 {
     margin-left: 20px;
 }
 
+
 .button {
     margin-right: 20px;
     color: white;
     padding-left: 10px;
     padding-right: 10px;
 }
+
 
 /** fine-navbar**/
 
@@ -149,6 +156,7 @@ h3 {
 
 .button2 {
     margin: 20px 0;
+    padding: 8px;
 
 }
 
