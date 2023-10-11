@@ -10,7 +10,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1{
+h1, h2{
     font-size: 40px;
 }
 
@@ -32,9 +32,6 @@ button {
     cursor: pointer;
 }
 
-h2 {
-    font-size: 20px;
-}
 
 .testo {
     font-size: 35px;
@@ -46,7 +43,9 @@ h2 {
     color: white;
 }
 
-
+main{
+    background-color: #DBE6D9;;
+}
 
 /**common**/
 
@@ -129,7 +128,7 @@ h2 {
 
 /**fine jumbotron**/
 
-/**primo article**/
+/**article**/
 
 .photoarticle{
     display: flex;
@@ -149,23 +148,106 @@ h2 {
     background-color: #DBE6D9;
 }
 
+
 .textright p{
     margin-top: 20px;
 }
 
 .contenitorearticle{
     width: 80%;
+    margin-top: 30px;
 }
 
 .btn1{
-    margin-top: 400px;
+    margin-top: 300px;
 }
 
 .order{
     order: 1;
 }
-/** fine primo article**/
 
+.imagearticle{
+    width: 80%;
+
+}
+
+.bt2{
+    margin-top: 50px;
+}
+
+/**article**/
+
+/**footer**/
+
+.contenitorefooter h2{
+    margin-top: 30px;
+}
+
+.footerbottom{
+    background-color: yellow;
+    text-align: center;
+    padding: 100px;
+}
+footer{
+    background-color: black;
+    padding-bottom: 50px;
+}
+.footer{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.boxfooter{
+    width: calc(100%/5);
+    margin-top: 100px;
+}
+
+.boxfooter h4{
+    margin-top: 15px;
+}
+
+.boxfooter h2{
+    color: white;
+}
+
+.infofooter{
+    margin-top: 20px;
+}
+
+.hrfooter{
+    width: 100px;
+    margin-top: 100px;
+}
+
+.fontawesome{
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.italy, .arrowfooter{
+    display: inline-block;
+}
+
+.arrowfooter{
+    vertical-align: bottom;
+    font-size: 12px;
+}
+
+.infofooter a{
+    text-decoration: none;
+    color: white;
+}
+
+.boxfooter h2{
+    font-size: 20px;
+}
+
+.infofooter h4{
+    font-size: 15px;
+}
+/**fine footer**/
 
 
 
