@@ -486,7 +486,7 @@ h3 {
 .section5 .testo {
     width: 70%;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     color: #61082b
 }
 
@@ -575,6 +575,7 @@ footer{
 .fontawesome{
     color: white;
     display: inline-block;
+    margin-top: 20px;
 }
 
 .italy, .arrowfooter{
